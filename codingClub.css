@@ -3,4 +3,9 @@
     font-weight: bold;
     font-size: 50px;
     text-align: center; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white; 
+    
 }
