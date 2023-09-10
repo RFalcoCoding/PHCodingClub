@@ -1,14 +1,46 @@
 body {
-    background-color: rgba(23, 36, 36, 0.144);
+    background-color: rgba(13, 14, 14, 0.658);
 }
-
+img {
+    width: 300px;
+    height: 300px;
+    margin: 70px;
+    border-radius: 50%
+   
+}
 #heading {
     font-weight: bold;
     font-size: 50px;
     text-align: center; 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     color: white; 
     
+}
+
+#welcome::first-letter {
+    font-size: 2em;
+    font-weight: bold; 
+}
+
+#welcome {
+    max-width: 400px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 30px;
+    margin-top: -90px;
+    font-size: 30px; 
+    box-shadow: 5px 10px 7px black;
+    
+}
+
+#links {
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px; 
+    height: 100px;
+    width: 300px;
 }
